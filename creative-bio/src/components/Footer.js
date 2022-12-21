@@ -1,6 +1,6 @@
 
 const Footer = () => {
-    return <footer>THIS IS THE FOOTER. INCLUDE LINKS HERE</footer>
+    return <footer>CONTACT | PORTFOLIO | ABOUT      ROSIEMOONYIN ALL RIGHTS RESERVED. 2023</footer>
 };
 
 export default Footer;

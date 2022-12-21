@@ -1,5 +1,5 @@
 const Button = () => {
-    return <button>DREAM</button>;
+    return <button className="="reuse-btn>DREAM</button>;
  };
  
  export default Button;

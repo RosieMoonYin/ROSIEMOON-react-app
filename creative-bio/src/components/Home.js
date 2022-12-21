@@ -4,6 +4,7 @@
 import About from "./About";
 import Button from "./Button";
 import Footer from "./Footer";
+import ImageDisplay from "./Image";
 import ReusableButton from "./ReusableButton";
 const Home = () => {
 
@@ -14,14 +15,18 @@ const Home = () => {
         <div className="container">
         
            <Button></Button>
-            <h1>Rosie Burnett.</h1>
+            <h1>Rosie Moon Yin.</h1>
             <p>REACT JSX / 
                 JAVASCRIPT / 
                 CSS / 
                 HTML / 
                 CREATIVE PORTFOLIO / </p>
             <About />
-            <ReusableButton>About Button Page</ReusableButton>
+            <ReusableButton>Resume</ReusableButton>
+            <ReusableButton>Projects</ReusableButton>
+            <ReusableButton>GitHub</ReusableButton>
+            <ReusableButton>Contact</ReusableButton>
+            <ImageDisplay></ImageDisplay>
             <Footer />
         </div>
     )
