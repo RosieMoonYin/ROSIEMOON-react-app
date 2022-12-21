@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300;400;700&family=Share+Tech+Mono&family=VT323&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Sans:wght@200;300;400;700&family=VT323&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -22,25 +21,37 @@ body {
 }
 
 h1 {  
-  font-family: 'VT323', monospace;
-  font-size: 80px;
-  font-weight: 300;
-  color: rgb(16,16,16);
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 110px;
+  font-weight: 500;
+  color: rgb(70,70,70);
+  color: rgb(255,50,0);
+}
+h1:hover {
+  color: rgb(70,70,70);
+}
+
+h2 {
+  margin: 2rem;
+  color:rgb(255,165,167);
+  
 }
 
 p {
   margin: 2rem;
+  color:rgb(16,16,16);
+  font-family: 'IBM Plex Mono', monospace;
 }
 
 button {
   padding: 0.7rem;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   background-color: rgb(70,70,70);
-  color: rgb(255,210,211);
+  color: #ffd2d3;
   outline: none;
   border: none;
-  border-radius: 5px;
+  border-radius: 0px;
 }
 
 button:hover {
@@ -61,13 +72,13 @@ footer {
 .reuse-btn {
   padding: 0.7rem;
   margin-bottom: 2rem;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   background-color: rgb(70,70,70);
   color: rgb(255,210,211);
   outline: none;
   border: none;
-  border-radius: 5px;
+  border-radius: 0px;
 }
 
 .reuse-btn:hover {

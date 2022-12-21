@@ -14,7 +14,7 @@ const Home = () => {
         <div className="container">
         
            <Button></Button>
-            <h1>ROSIE BURNETT</h1>
+            <h1>Rosie Burnett.</h1>
             <p>REACT JSX / 
                 JAVASCRIPT / 
                 CSS / 
