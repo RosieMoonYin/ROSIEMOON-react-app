@@ -1,19 +1,23 @@
 import { useState } from "react";
-import JournalList from "./JournalList";
 
-const About = () => {
-  const [Journal, setJournal] = useState([
-    { title: 'Merging with machine', body: 'lorem ipsum...', author: 'RosiemoonYin', id: 1 },
-    { title: 'The issue with ransome attacks', body: 'lorem ipsum...', author: 'RosiemoonYin', id: 2 },
-    { title: 'Turing Test, fooling the human', body: 'lorem ipsum...', author: 'RosiemoonYin', id: 3 }
+const About =() => { 
+    //aray of blogs
+const [blogs, setBlogs] = useState([
+    { title: 'Flying into the red thread', body: 'lorem ipsum...', category: 'nightmate', id: 1 },
+    { title: 'Desert dust dream', body: 'lorem ipsum...', category: 'desertscape', id: 2 },
+    { title: 'Water moving in the dark...', body: 'lorem ipsum...', category: 'calm water', id: 3}
   ])
-
-  return (
+        
+return (
     <div className="about">
-        <JournalList blogs={Journal}/>
+      {blogs.map(blog => (
+        <div className="blog-preview" key={blog.id} >
+          <h2>{ blog.title }</h2>
+          <p>Dreamscape { blog.category }</p>
+        </div>
+      ))}
     </div>
-  );
-}
+     )}
 
 export default About;
 
