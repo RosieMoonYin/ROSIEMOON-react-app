@@ -12,8 +12,8 @@ return (
     <div className="about">
       {blogs.map(blog => (
         <div className="blog-preview" key={blog.id} >
-          <h2>{ blog.title }</h2>
-          <p>Dreamscape { blog.category }</p>
+          <h2>Title: { blog.title }</h2>
+          <p>Dreamscape: { blog.category }</p>
         </div>
       ))}
     </div>
