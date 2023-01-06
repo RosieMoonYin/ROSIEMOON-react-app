@@ -5,6 +5,8 @@ import About from "./About";
 import Footer from "./Footer";
 import ImageDisplay from "./Image";
 import ReusableButton from "./ReusableButton";
+import ContactForm from "./ContactForm";
+
 
 const Home = () => {
 
@@ -18,6 +20,7 @@ const Home = () => {
                 HTML / 
                 CREATIVE PORTFOLIO / </p>        
             <About />
+            <ContactForm />
             <ReusableButton>Resume</ReusableButton>
             <ReusableButton>Projects</ReusableButton>
             <ReusableButton>GitHub</ReusableButton>

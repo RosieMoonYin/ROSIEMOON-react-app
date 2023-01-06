@@ -6,4 +6,3 @@ export default Message;
 
 //this is an example of react PROPS 
 //make function read props - make props as a parameter
-//this can create personalised messages
